@@ -1,5 +1,5 @@
 function basicTeenager(age) {
-  if(age>=13||age<=19) {
+  if(age>=13 && age<=19) {
     return "you are a teenager!"
   }
 }
@@ -52,7 +52,7 @@ function switchAge(age) {
           return "you are a teenager"
           break;
   default:
-                return "you have an age"
+          return "you have an age"
 
 }
 }
